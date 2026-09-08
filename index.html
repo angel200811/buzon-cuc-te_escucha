@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzón CUC Escucha</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Buzón CUC Escucha</h1>
+        <p>Tu opinión ayuda a mejorar nuestra universidad</p>
+    </header>
+
+    <main>
+
+        <section class="contenedor">
+
+            <h2>Comparte tu sugerencia</h2>
+
+            <form>
+
+                <div class="grupo">
+                    <label for="nombre">Nombre completo</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Ej. Juan Pérez"
+                        required>
+                </div>
+
+                <div class="grupo">
+                    <label for="correo">Correo electrónico</label>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="correo@ejemplo.com"
+                        required>
+                </div>
+
+                <div class="grupo">
+                    <label for="asunto">Asunto</label>
+                    <input
+                        type="text"
+                        id="asunto"
+                        name="asunto"
+                        placeholder="Título de tu sugerencia"
+                        required>
+                </div>
+
+                <div class="grupo">
+                    <label for="mensaje">Sugerencia</label>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="5"
+                        placeholder="Escribe aquí tu idea, sugerencia o comentario..."
+                        required></textarea>
+                </div>
+
+                <button type="submit">Enviar sugerencia</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Buzón CUC Escucha | Universidad de la Costa</p>
+    </footer>
+
+</body>
+
+</html>
